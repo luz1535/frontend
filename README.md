@@ -131,3 +131,162 @@
       
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+      
+      <!--inicio style--!>
+    <style>
+    
+        html, body {
+            height: 100%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 50px;
+            background: #000000;
+            opacity: .85;
+            padding: 10px 50px;
+            color: #FFFFFF;
+        }
+
+        a {
+            margin: 5px;
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        .sub-header {
+            display: flex;
+            align-items: center;
+            background: #343A40;
+            margin: 0;
+            padding: 0 50px;
+            color: #FFFFFF;
+            height: 250px;
+        }
+
+        .body-content {
+            padding: 0 50px;
+            color: #495057;
+        }
+
+        .body-content-title {
+            margin: 60px 0;   
+        }
+
+        .blog-posts {
+            display: flex;
+            list-style-type: none;
+            margin-bottom: 80px; 
+            padding: initial;
+        }
+
+        .card {
+            display: flex;
+            align-items: end;
+            margin-right: 20px;
+        }
+
+        img {
+            width: 420px;
+            height: 350px;
+        }
+
+        .card-content {
+            position: absolute;
+            color: #FFFFFF;
+            margin: 20px;
+        }
+
+        .card-date {
+            font-size: small;
+            opacity: .8;
+        }
+
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 50px;
+            background: #343A40;
+            padding: 10px 50px;
+            color: #FFFFFF;
+        }
+
+        .footer-link {
+            font-size: small;
+            font-weight: 100;
+        }
+
+    </style>
+    <!--final style--!>
+  </head>
+  <body>
+    <header>
+        <h2>RUNO</h2>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="articles.html">Articles</a>
+            <a href="contact-us.html">Contact US</a>
+        </div>
+    </header>
+    <h1 class="sub-header">
+        Richird Norton photorealistic<br/>
+        rendering as real photos
+    </h1>
+    
+    <div class="body-content">
+        <h2 class="body-content-title">Editor's Pick</h2>
+        <ul class="blog-posts">
+            <li class="card">
+                <img src="assets/card-image.svg"/>
+                <div class="card-content">
+                    <span class="card-date">08.08.2021</span>
+                    <h3>Richird Norton photorealistic<br/> rendering as real photos</h3>
+                </div>
+            </li>
+            <li class="card">
+                <img src="assets/card-image.svg"/>
+                <div class="card-content">
+                    <span class="card-date">08.08.2021</span>
+                    <h3>Richird Norton photorealistic<br/> rendering as real photos</h3>
+                </div>
+            </li>
+            <li class="card">
+                <img src="assets/card-image.svg"/>
+                <div class="card-content">
+                    <span class="card-date">08.08.2021</span>
+                    <h3>Richird Norton photorealistic<br/> rendering as real photos</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <footer>
+        <h6>2023 | RUNO Publisher Studio</h4>
+        <a href="#" class="footer-link">Subscribe Now</a>
+    </footer>
+  </body>
+</html>
+
